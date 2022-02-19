@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/drawerimg"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="160dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:contentDescription="@string/nav_dadiesoBB"
+        android:src="@drawable/boysbrigade">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/nav_brig"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

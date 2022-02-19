@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/payment_bottom_back"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/a_m_b_band_festival"
+        android:textColor="#F11F33"
+        android:textSize="23sp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="serif"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#162D93"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="0.2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="#494848"
+            android:textSize="19sp"
+            android:text="@string/please_kindly_click_on_the_button_below_to_make_payment_to_the_amb_project_fund"
+            android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/make_your_payment"
+        android:textAllCaps="true"
+        android:id="@+id/btnpayment"
+        android:background="#162D93"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

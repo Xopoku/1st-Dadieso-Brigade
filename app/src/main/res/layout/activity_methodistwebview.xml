@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/methrel"
+    android:layout_height="match_parent"
+    tools:context=".Methodist_church_Ghana">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/methwebview"
+        android:layout_above="@id/adView"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/methodistprogress"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/methodisterror"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:contentDescription="@string/nav_img1"
+            android:src="@drawable/networkcheck"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/ne"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginTop="260dp"
+            android:textColor="#FA0303"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/ne1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="290dp"
+            android:textColor="#0B03A6"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+
+</RelativeLayout>

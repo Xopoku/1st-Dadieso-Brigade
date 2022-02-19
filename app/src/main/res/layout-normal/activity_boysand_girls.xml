@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FAEBEB"
+    android:layout_height="match_parent"
+    tools:context=".Officersweb">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/bbboys"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:contentDescription="@string/off"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:columnCount="2"
+            android:rowCount="1"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="100dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/bbbo"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="270dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:contentDescription="@string/snr"
+                    android:src="@drawable/bbbg"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="60dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/bys"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#F44336"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="100dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/bby"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="100dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:contentDescription="@string/snr"
+                    android:src="@drawable/bbbo"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="60dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/cho"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#F44336"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

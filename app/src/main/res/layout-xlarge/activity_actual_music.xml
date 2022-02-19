@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#070C8B"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.trustingbrother.a1stdadiesobrigade.ActualMusic">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:src="@drawable/notation"
+        android:layout_height="310dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:columnCount="3"
+            android:layout_marginTop="310dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:id="@+id/libstaff"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/musiclab1"
+                    android:contentDescription="@string/mhb"
+                    android:layout_height="110dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/mmt1"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="25sp"
+                    android:layout_marginTop="105dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:id="@+id/libmore"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#fff"
+
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/musiclab2"
+                    android:contentDescription="@string/mhb"
+                    android:layout_height="110dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/mmt2"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="25sp"
+                    android:layout_marginTop="105dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:id="@+id/libtonic"
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_height="150dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:src="@drawable/musiclab1"
+                    android:contentDescription="@string/mhb"
+                    android:layout_height="110dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/mmt3"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="25sp"
+                    android:layout_marginTop="105dp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/musicback"
+        android:src="@drawable/gclef"
+        android:contentDescription="@string/nav_img1"
+        android:layout_marginTop="500dp"
+        android:layout_height="200dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="15dp"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:layout_height="match_parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="25dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/musicback"
+        android:layout_height="420dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="25dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/musicback"
+        android:layout_alignParentEnd="true"
+        android:layout_height="420dp"/>
+
+
+</RelativeLayout>

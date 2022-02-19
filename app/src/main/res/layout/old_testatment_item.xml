@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/oldtestamentrecyclerviewcardview"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="55dp"
+                app:cardCornerRadius="10dp"
+                android:contentDescription="@string/nav_img1"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/_1"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/oldtestamentrecyclerviewtxt1"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/oldtestamentrecyclerviewtxt2"
+                android:text="@string/the_story_of_adam_and_eve"
+                android:layout_marginStart="65dp"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:textSize="19sp"
+                android:fontFamily="serif"
+                android:textColor="#000"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

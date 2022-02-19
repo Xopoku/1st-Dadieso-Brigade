@@ -1,0 +1,38 @@
+package com.trustingbrother.a1stdadiesobrigade;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+
+@SuppressWarnings("ALL")
+public class New3 extends AppCompatActivity {
+    WebView webView;
+    @SuppressLint("SetJavaScriptEnabled")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_new3);
+        setTitle("Zacharias and Elizabeth Name their Child");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+    webView = findViewById(R.id.new3webview);
+    WebSettings webSettings = webView.getSettings();
+    webSettings.getAllowFileAccess();
+    webSettings.setJavaScriptEnabled(true);
+    webSettings.setAllowFileAccess(true);
+    webSettings.setAllowContentAccess(true);
+    webSettings.setSupportZoom(true);
+    webSettings.setBuiltInZoomControls(true);
+    webSettings.setDisplayZoomControls(false);
+    webView.loadUrl("file:///android_asset/Newtest/new3.html");
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+    finish();
+        return super.onSupportNavigateUp();
+    }
+}

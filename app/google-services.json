@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "948971576693",
+    "firebase_url": "https://st-dadieso-brigade-beac7.firebaseio.com",
+    "project_id": "st-dadieso-brigade-beac7",
+    "storage_bucket": "st-dadieso-brigade-beac7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948971576693:android:b3eb484e829565d8f8c73c",
+        "android_client_info": {
+          "package_name": "com.trustingbrother.a1stdadiesobrigade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948971576693-02r6ikvcrel24asu2ros04htu9luvcbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAECe8VqiqNeY4wNa_KSBHwpVgitGEQ18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948971576693-02r6ikvcrel24asu2ros04htu9luvcbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

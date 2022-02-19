@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16156b"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.trustingbrother.a1stdadiesobrigade.Membership">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/mb"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/mpatrons"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/mbmember"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/mb"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/pat"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#0B249C"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/mofficer"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/mbmember"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/mb"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/chap"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#0B249C"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/msenior"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/mbmember"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/mb"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/off"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#0B249C"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:id="@+id/mcompany"
+        android:layout_margin="10dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/mbmember"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/mb"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/bag"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#0B249C"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

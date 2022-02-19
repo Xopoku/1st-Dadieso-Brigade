@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/drawable/payment_bottom_back.xml" value="0.20208333333333334" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-large/activity_actual_music.xml" value="0.4725" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-large/activity_splash_screen.xml" value="0.20625" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-normal/activity_actual_music.xml" value="0.196875" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-normal/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-small/activity_splash_screen.xml" value="0.5892857142857143" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout-xlarge/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_about.xml" value="0.18" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_actual_music.xml" value="1.35" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_brigade_anthem.xml" value="0.18177083333333333" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_devotion.xml" value="0.196875" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_new41.xml" value="0.196875" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_passwordreset.xml" value="0.18177083333333333" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_payment.xml" value="0.18177083333333333" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/activity_youtube.xml" value="0.196875" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/layout/nav_header.xml" value="0.18177083333333333" />
+        <entry key="..\:/PICTURES/IMPORTANT PICTURES &amp; APPS/APPS PROJECT/Android Apps/1stDadiesoBrigade/app/src/main/res/menu/drawer_menu.xml" value="0.18177083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

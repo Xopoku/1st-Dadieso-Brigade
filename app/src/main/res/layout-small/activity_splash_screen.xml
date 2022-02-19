@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    tools:context=".Splash_Screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imgsplash"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/nav_s1"
+        android:src="@drawable/boysbrigade">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:id="@+id/txtsplash1"
+        android:textColor="#081B86"
+        android:text="@string/nav_s1">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:id="@+id/txtsplash2"
+        android:layout_marginTop="1dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textColor="#EB071C"
+        android:text="@string/nav_s2">
+
+    </TextView>
+
+</LinearLayout>

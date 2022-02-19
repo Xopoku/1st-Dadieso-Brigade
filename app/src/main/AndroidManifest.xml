@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.trustingbrother.a1stdadiesobrigade">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup"
+        tools:targetApi="n">
+        <activity android:name=".Old74"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old73"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old72"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old71"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old70"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old69"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old68"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old67"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old66"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old65"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old64"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old63"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old62"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old61"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old60"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old59"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old58"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old57"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old56"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old55"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity android:name=".Old54"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Colour_Presentation"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Devotion"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme1"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".new51" />
+        <activity
+            android:name=".new50"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new49"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new48"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new47"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new46"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new45"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new44"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new43"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new42"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new41"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new40"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new39"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new38"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new37"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new36"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new35"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new34"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new33"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new32"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new31"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new30"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new29"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new28"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new27"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new26"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new25"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new24"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new23"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new22"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new21"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new20"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new19"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new18"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new17"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new16"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new15"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new14"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new13"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new12"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new11"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new10"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new9"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new8"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new7"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new6"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new5"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new4"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".New3"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new2"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".new1"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old11"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Drill_Manual"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Old53"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old52"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old51"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old50"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old49"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old48"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old47"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old46"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old45"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old44"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old43"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old42"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old41"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old40"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old39"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old38"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old37"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old36"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old35"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old34"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old33"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old32"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old31"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old30"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old29"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old28"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old27"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old26"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old25"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old24"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old23"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old22"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old21"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old20"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old19"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old18"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old17"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old16"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old15"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old14"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old13"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old12"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old10"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old9"
+            android:configChanges="screenSize|orientation"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old8"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old7"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old6"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old5"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old4"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old3"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old2"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Old1"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Biblestudywebview" />
+        <activity
+            android:name=".Passwordreset"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".loginmembership"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".loginreport"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
+            tools:ignore="LockedOrientationActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6606249369201085~3866308494" />
+
+        <activity
+            android:name=".explorerwebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Girlswebview" />
+        <activity
+            android:name=".juniorgirlwebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Girlswebview" />
+        <activity
+            android:name=".seniorgirlwebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Girlswebview" />
+        <activity
+            android:name=".jnrboyswebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Boyswebview" />
+        <activity
+            android:name=".snrboyswebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Boyswebview" />
+        <activity
+            android:name=".BrigaderWebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Girlswebview" />
+        <activity
+            android:name=".AnchorWebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Boyswebview" />
+        <activity
+            android:name=".Methodist_church_Ghana"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AnnualReportwebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Biblestudywebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Programsoutwebview"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".News_and_event"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Girlswebviewofficers"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Officersweb" />
+        <activity
+            android:name=".Boyswebviewofficers"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Officersweb" />
+        <activity
+            android:name=".Girlswebview"
+            android:parentActivityName=".BoysandGirls"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Boyswebview"
+            android:parentActivityName=".BoysandGirls"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".BrigadeGirls"
+            android:parentActivityName=".Girlswebview" />
+        <activity
+            android:name=".BoysandGirls"
+            android:parentActivityName=".Membership"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Officersweb"
+            android:parentActivityName=".Membership"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Chaplainweb"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Membership" />
+        <activity
+            android:name=".PatronsView"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".Membership" />
+        <activity
+            android:name=".MusicMoreRight"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".ActualMusic" />
+        <activity
+            android:name=".MusicMore"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".ActualMusic" />
+        <activity
+            android:name=".ActualMusic"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".Music"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".ActualMusic" />
+        <activity
+            android:name=".Appmanual"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Membership"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Facebook"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".About"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Brigade_Anthem"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="IntentFilterExportedReceiver,LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

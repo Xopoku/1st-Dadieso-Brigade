@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        app:cardBackgroundColor="#05106D"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:id="@+id/imgpop"
+            android:src="@drawable/infoouut"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/nav_img1"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/popm"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:id="@+id/txtmessage"
+            android:textStyle="bold"
+            android:textSize="19sp"
+            android:layout_marginTop="80dp"
+            android:layout_height="match_parent"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:columnCount="2"
+                android:rowCount="1"
+                android:layout_marginTop="150dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:background="@drawable/popupbackgroud"
+                    android:layout_height="40dp"
+                    android:text="@string/ynno"
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/btnnegative"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_width="90dp"/>
+
+                <Button
+                    android:background="@drawable/popupbackgroud2"
+                    android:layout_height="40dp"
+                    android:text="@string/ys"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/btnpositive"
+                    android:textColor="#4CAF50"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="90dp"/>
+
+            </GridLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

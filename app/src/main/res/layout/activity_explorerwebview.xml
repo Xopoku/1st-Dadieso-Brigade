@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explorerwebview">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/explorereweb"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/explorereprogress"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/explorererror"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:contentDescription="@string/nav_img1"
+            android:src="@drawable/networkcheck"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/ne"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:layout_marginTop="260dp"
+            android:textColor="#FA0303"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/ne1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="290dp"
+            android:textColor="#0B03A6"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

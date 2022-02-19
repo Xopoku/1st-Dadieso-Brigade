@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Log-In</title>
+        <link rel="stylesheet" href="login.css">
+        <link rel="shortcut icon" href="images/amesicon.ico" type="image/x-icon">
+
+        <script>
+            function logsubmit(){
+                var eemail = prompt("Enter your email mail address to get your new password");
+                
+                if(eemail == "" || eemail == null){
+                    alert("Please enter a valid email address");
+                }
+
+                else{
+                    alert("Thank you. You will be provided with your password.")
+                }
+            }
+
+        </script>
+       
+    </head>
+    <body>
+        <div class="Sign-Up">
+            <img src="amb.png">
+            <h1>COMMENTS</h1>
+            <form id="form" action="content.html">
+                <label  id="lab"></label>
+                <input type="text" class="input-box" placeholder="Full Name" id="userpass" required>
+                <input type="email" class="input-box" placeholder="Email Address..." id="usermail" required>
+               
+                <textarea name="message" class=input-box placeholder="Your message..." id="input_text" required></textarea>
+            
+                <button type="submit" id="submit" class="sign-btn" onclick="logsubmit()">submit</button>
+        
+            </form>
+        </div>
+    </body>
+</html>

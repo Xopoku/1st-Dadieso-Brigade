@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"/>
+
+
+    <item
+        android:id="@+id/navdot1"
+        android:title="@string/AP"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/navdot5"
+        android:title="@string/update_app"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/navdot4"
+        android:title="@string/change_password"
+        app:showAsAction="never"/>
+
+
+
+    <item
+        android:id="@+id/navdot3"
+        android:title="@string/EX"
+        app:showAsAction="never"/>
+</menu>

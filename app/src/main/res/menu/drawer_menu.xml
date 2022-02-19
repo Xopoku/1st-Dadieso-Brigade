@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/nav_ann">
+
+        <menu>
+            <item
+                android:id="@+id/nav_weeklyactivities"
+                android:icon="@drawable/weeklyactivities"
+                android:title="@string/nav_weeklyact" />
+
+           <!-- <item
+                android:id="@+id/nav_programout"
+                android:icon="@drawable/programoutline"
+                android:title="@string/nav_programOut" /> -->
+
+            <item
+               android:id="@+id/nav_hymns"
+               android:icon="@drawable/hymn_book"
+               android:title="@string/hymn_book" />
+
+
+            <item
+                android:id="@+id/nav_biblestudy"
+                android:icon="@drawable/biblestudies"
+                android:title="@string/nav_Biblestudy" />
+
+            <item
+                android:id="@+id/nav_devotion"
+                android:icon="@drawable/devotion"
+                android:title="@string/devotion" />
+
+            <item
+                android:id="@+id/nav_annualreport"
+                android:icon="@drawable/annualreport"
+                android:title="@string/nav_annualreport" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/nav_other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_anthem"
+                android:icon="@drawable/music"
+                android:title="@string/nav_anthem" />
+
+            <item
+                android:id="@+id/nav_scores"
+                android:icon="@drawable/pdf"
+                android:title="@string/nav_scores" />
+
+            <item
+                android:id="@+id/band_fund"
+                android:icon="@drawable/ghanaiancedi"
+                android:title="@string/a_m_b_band_festival" />
+
+
+            <item
+                android:id="@+id/nav_colour_presentation"
+                android:icon="@drawable/colours"
+                android:title="@string/colour_presentation" />
+
+
+            <item
+                android:id="@+id/nav_drill_manual"
+                android:icon="@drawable/drill"
+                android:title="@string/drill_book" />
+
+
+           <!-- <item
+                android:id="@+id/nav_videos"
+                android:icon="@drawable/videolibrary"
+                android:title="@string/nav_videos" />-->
+
+            <item
+                android:id="@+id/nav_images"
+                android:icon="@drawable/imagelab"
+                android:title="@string/nav_img1" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/nav_abt">
+        <menu>
+            <item
+                android:id="@+id/nav_patrons"
+                android:icon="@drawable/ourpatrons"
+                android:title="@string/nav_patrons" />
+
+            <item
+                android:id="@+id/nav_methodist"
+                android:title="@string/Meths"
+                android:icon="@drawable/methodist1"
+                />
+
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/developer"
+                android:title="@string/nav_dev" />
+
+
+            <item
+                android:id="@+id/nav_support_developer"
+                android:icon="@drawable/support"
+                android:title="@string/support_developer" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="@string/nav_cmt">
+        <menu>
+
+            <item
+                android:title="@string/nav_cmtmail"
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/email"/>
+
+            <item
+                android:title="@string/Rt"
+                android:icon="@drawable/rate_us"
+                android:id="@+id/nav_rate"/>
+        </menu>
+
+    </item>
+
+
+</menu>
